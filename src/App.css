@@ -274,6 +274,22 @@ font-size: 2.5rem;
     transition: bottom .3s;
 
 }
+.github-link {
+    font-size:2rem;
+    font-weight: 500;
+    color:#333;
+    letter-spacing:0.1rem;
+    border:.3rem solid #22378D;
+    padding:0 1rem;
+    background-color: #fff;
+    position:absolute;
+    bottom: -8rem;
+    transition: bottom .3s;
+}
+.project:hover .github-link{
+    bottom:10rem;
+    transition: bottom .3s .3s;
+}
 .project:hover .project-link{
     bottom:5rem;
     transition: bottom .3s .3s;

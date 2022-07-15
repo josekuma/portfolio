@@ -12,8 +12,20 @@ const Projects = () => {
             <h4 className="project-technologies">HTML / CSS / JS</h4>
           </div>
           <img src="images/project-1.png" className="project-img" />
-          <a href="#" className="project-link" target="_blank">
+
+          <a
+            href="https://chipper-cat-ecaa64.netlify.app"
+            className="project-link"
+            target="_blank"
+          >
             Go to Website
+          </a>
+          <a
+            href="https://github.com/josekuma/portfolio"
+            className="github-link"
+            target="_blank"
+          >
+            Github
           </a>
         </div>
         <div className="project">
@@ -31,6 +43,13 @@ const Projects = () => {
           >
             Go to Website
           </a>
+          <a
+            href="https://github.com/josekuma/FakeNetflix"
+            className="github-link"
+            target="_blank"
+          >
+            Github
+          </a>
         </div>
         <div className="project">
           <div className="project-text">
@@ -46,6 +65,13 @@ const Projects = () => {
             target="_blank"
           >
             Go to Website
+          </a>
+          <a
+            href="https://github.com/josekuma/e-commerceJC"
+            className="github-link"
+            target="_blank"
+          >
+            Github
           </a>
         </div>
       </div>
