@@ -379,12 +379,27 @@ color:#555;
     height:80vh;
 }
 }
+@media(max-width:1000px){
+    .tools-section{
+    grid-template-columns: 1.5fr 0.5fr 1.5fr;}
+}
 @media(max-width:800px){
     .section-1-heading{
         font-size:4rem;
     }
     .progress-bar{
         width:50rem;
+    }
+    .tools-section{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .text-section{
+        justify-content: center;
+        margin:0;
+        padding: 3rem;
     }
 }
 @media(max-width: 600px){
@@ -401,11 +416,7 @@ color:#555;
         flex-direction: column;
        
     }
-    .tools-section{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-    }
+   
     .tools-icons{
         padding: 2rem 0rem;
     }
@@ -425,11 +436,12 @@ color:#555;
     html{
         font-size:55%;
     }
+    .text-section{
+        margin: 0;
+    }
 }
 @media(max-width:450px){
-    html{
-        font-size:2.5rem;
-    }
+ 
     .navbar-link{
         margin:0 1.5rem;
     }
@@ -439,5 +451,18 @@ color:#555;
     .progress-bar{
         width:40rem;
     }
+    .text-section{
+        padding:0;
+    }
+}
+@media(max-width:430px){
+html{
+    font-size:45%;
+}
+}
+@media(max-width:350px){
+html{
+    font-size:40%;
+}
 }
 /*End of responsive*/
