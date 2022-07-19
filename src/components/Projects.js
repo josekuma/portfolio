@@ -21,7 +21,7 @@ const Projects = () => {
             Go to Website
           </a>
           <a
-            href="https://github.com/josekuma/portfolio"
+            href="https://github.com/josekuma/Project1Restaurant"
             className="github-link"
             target="_blank"
           >

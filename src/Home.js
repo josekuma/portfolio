@@ -51,7 +51,7 @@ function App() {
         <a href="#about" className="navbar-link">
           About
         </a>
-        <a href="#" className="navbar-link">
+        <a href="https://www.linkedin.com/in/jcgj/" className="navbar-link">
           Portfolio
         </a>
         <a href="#contact-form" className="navbar-link">
